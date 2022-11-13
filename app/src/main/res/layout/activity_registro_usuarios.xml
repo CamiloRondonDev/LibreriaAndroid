@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminAgregarLibro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+
+        android:text="Crea Tu Cuenta" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#7E7777"
+        android:text="disfruta de miles de libros en la palma"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#7E7777"
+        android:text="de tu mano"
+        android:textAlignment="center"
+        android:layout_marginTop="1dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/nombreRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fondos_editex"
+        android:ems="10"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B" />
+
+    <EditText
+        android:id="@+id/correoRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fondos_editex"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B" />
+
+    <EditText
+        android:id="@+id/telefonoRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fondos_editex"
+        android:ems="10"
+        android:hint="Numero Telefono"
+        android:inputType="phone"
+        android:paddingStart="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B" />
+
+    <EditText
+        android:id="@+id/direccionRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:paddingStart="20sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/fondos_editex"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColorHint="#6E6B6B"
+        android:hint="Direccion"
+
+
+        />
+
+    <EditText
+        android:id="@+id/contraseñaRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fondos_editex"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:paddingStart="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B"/>
+
+    <Button
+        android:id="@+id/botonRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/fondos_boton_inicar_sesion"
+        android:text="Registrarse"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="30dp"
+            android:text="No estas registrado?"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonRegresarLogin"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="120dp"
+            android:text="Iniciar Sesion"
+            android:textAllCaps="false"
+            android:textColor="#EFE8E8"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

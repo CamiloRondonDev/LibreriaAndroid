@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminActualizarLibro"
+    android:background="@color/black"
+    >
+
+    <include
+        layout="@layout/banerinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imagenMiLibros"
+        android:layout_width="180dp"
+        android:layout_height="198dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/nombreVerMiLibroPrestado"
+        android:layout_width="358dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Nombre Libro"
+        android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:id="@+id/autorMiLibroPrestado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="Autor Libro"
+        android:inputType="textPersonName"
+        android:paddingStart="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/descripcionMiLibroPrestado"
+        android:layout_width="377dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#6E6B6B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/botonDevolver"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fondos_boton_inicar_sesion"
+        android:text="Devolver"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonVer"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="ver"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
