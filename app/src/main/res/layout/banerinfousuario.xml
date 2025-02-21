@@ -31,7 +31,7 @@
             <TextView
 
                 android:id="@+id/Usuario"
-                android:layout_width="213dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:ems="10"
@@ -46,7 +46,7 @@
             <TextView
 
                 android:id="@+id/nombreUsuario"
-                android:layout_width="match_parent"
+                android:layout_width="201dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:ems="10"
@@ -67,17 +67,16 @@
             android:id="@+id/masUsuario"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="10dp"
-            android:visibility="gone"
             android:src="@drawable/mas"
-            />
+            android:visibility="gone" />
 
         <ImageView
             android:id="@+id/flechaUsuario"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="10dp"
             android:visibility="gone"
             android:src="@drawable/flecha"

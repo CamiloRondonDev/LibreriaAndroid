@@ -23,9 +23,9 @@
 
     <TextView
         android:id="@+id/nombreVerMiLibroPrestado"
-        android:layout_width="358dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="Nombre Libro"
@@ -39,9 +39,9 @@
 
     <TextView
         android:id="@+id/autorMiLibroPrestado"
-        android:layout_width="match_parent"
+        android:layout_width="339dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="25dp"
         android:ems="10"
@@ -73,22 +73,22 @@
         android:layout_height="match_parent">
 
 
-    <Button
-        android:id="@+id/botonDevolver"
-        android:layout_width="161dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="25dp"
-        android:background="@drawable/fondos_boton_inicar_sesion"
-        android:text="Devolver"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/botonDevolver"
+            android:layout_width="146dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="Devolver"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/botonVer"
-            android:layout_width="161dp"
+            android:layout_width="139dp"
             android:layout_height="60dp"
             android:layout_marginLeft="2dp"
             android:layout_marginTop="30dp"
